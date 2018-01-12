@@ -62,7 +62,8 @@ class DisappearingViewsManager implements IDisappearingViewsManager {
 
         return container;
     }
-    /** during pre-layout calculate approximate height which will be free after moving items offscreen (removed or moved)
+    /**
+     * during pre-layout calculate approximate height which will be free after moving items offscreen (removed or moved)
      * @return approximate height of disappearing views. Could be bigger, than accurate value. */
     @Override
     public int calcDisappearingViewsLength(RecyclerView.Recycler recycler) {
